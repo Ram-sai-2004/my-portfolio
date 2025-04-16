@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ram Sai Sripathi | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Ram Sai Sripathi</div>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#internships">Internships</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero" data-aos="fade-up">
+      <img src="images/profile.jpg" alt="Profile" class="profile-img" />
+      <h1>Hi, I'm Ram Sai Sripathi</h1>
+      <p>I'm a Data Science Enthusiast & Developer</p>
+    </div>
+  </header>
+
+  <section id="about" data-aos="fade-up">
+    <h2>About Me</h2>
+    <p>I am a passionate data science student, currently pursuing a Bachelor's degree in MVGR College of Engineering.</p>
+  </section>
+
+  <section id="skills" data-aos="fade-left">
+    <h2>Skills</h2>
+    <ul>
+      <li>Python, C, SQL</li>
+      <li>HTML & CSS</li>
+      <li>Data Analysis</li>
+    </ul>
+  </section>
+
+  <section id="projects" data-aos="fade-right">
+    <h2>Projects</h2>
+    <p>Leaf Disease Detection using ML</p>
+    <p>Hospital Management System</p>
+    <p>Smart Financial Advisor</p>
+    <P>Virtual Assistant for Home Automation</P>
+  </section>
+
+  <section id="internships" data-aos="zoom-in">
+    <h2>Internships</h2>
+    <p>Google AI - ML internship<br>Salesforce Virtual Internship</p>
+  </section>
+
+  <section id="contact" data-aos="fade-up">
+    <h2>Contact</h2>
+    <p>Phone: 8500969691</p>
+    <p>Email: sripathiramsai2004@gmail.com</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/ramsai-sripathi-40158b259/" target="_blank">Profile Link</a></p>
+  </section>
+
+  <section id="games" data-aos="fade-up">
+    <h2>🎮 Educational Games</h2>
+
+    <div class="game-box">
+      <h3>Multiplication Table</h3>
+      <input type="number" id="multiInput" placeholder="Enter a number">
+      <button onclick="generateTable()">Show Table</button>
+      <ul id="tableOutput"></ul>
+    </div>
+
+    <div class="game-box">
+      <h3>Prime Number Checker</h3>
+      <input type="number" id="primeInput" placeholder="Enter a number">
+      <button onclick="checkPrime()">Check Prime</button>
+      <p id="primeResult"></p>
+    </div>
+  </section>
+</body>
+</html>
